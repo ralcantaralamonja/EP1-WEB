@@ -1,2 +1,6 @@
 # EP1-WEB
-EP 1 DE PROGRAMACION WEB 1
+Miembros de la EP1
+*Ricardo Alcantara 
+*
+*
+*
