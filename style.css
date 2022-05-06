@@ -1,11 +1,57 @@
- 
-h2{
-    color: white;
+body {
+    background-color: black;
 }
+
+.navbar-custom {
+    background-color: #070c0d;
+}
+
+main .carousel-inner img{
+    max-width: 200vh;
+    object-fit: cover;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container, #carousel .overlay .row{
+    height: 100%;
+}
+
+#about-services{
+    background-image: url(/EP1-WEB/imagenes/bg-cat.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* max-width: 200vh; */
+}
+
+
+#contactos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #c6c5c4;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 #contactos{
     background-color: black;
 }
- 
+
 p{
     color:  #c6c5c4;
     font-size: 1.5rem;
