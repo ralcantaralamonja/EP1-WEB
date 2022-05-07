@@ -1,3 +1,7 @@
+html{
+    font-size: 16px;
+}
+
 body {
     background-color: black;
 }
@@ -29,42 +33,82 @@ main .carousel-inner img{
     height: 100%;
 }
 
-#about-services{
-    background-image: url(/EP1-WEB/imagenes/bg-cat.jpg);
+.text-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.text-title-second{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.text-oswald{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.text-list{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.text-anton{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.text-shadows{
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2rem;
+}
+
+.text-tittle-ourteam{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.text-ourteam{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+}
+
+.tex-contacts{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+}
+
+.text-videos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+}
+
+.text-title-appo{
+    font-size: 2rem;
+}
+
+
+#contactos{
+    background-image: url(imagenes/gato-content.jpg);
     background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
-    /* max-width: 200vh; */
-}
-
-
-#contactos{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h1{
-    color: #c6c5c4;
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-h2{
-    color: #c6c5c4;
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-#contactos{
-    background-color: black;
+    background-size: fixed;
+    height: 100vh;
+    width: 100;
 }
 
 p{
     color:  #c6c5c4;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: bold;
 }
 
 #footer{
-    background-color:  #070c0d ;
+    background-color:  #black ;
     padding: 20px 0px 20px 0px;
 }
 
@@ -85,5 +129,195 @@ p{
     padding-top: 6%;
 }
 #instagram-icon, #facebook-icon{
-    color:  #b5b2a8  ;
+    color:  white  ;
+}
+
+
+/* BREACKPOINTS */
+
+@media screen and (max-width: 1200px) {
+
+    .text-title{
+        font-family: 'Oswald', sans-serif;
+        font-size: 4.5rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .text-oswald{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .tex-contacts{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+
+    .text-anton{
+        font-family: 'Anton', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    
+    .text-shadows{
+        font-family: 'Shadows Into Light', cursive;
+        letter-spacing: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .text-title{
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .text-oswald{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.3rem;
+    }
+    
+    .tex-contacts{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .text-anton{
+        font-family: 'Anton', sans-serif;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    .text-shadows{
+        font-family: 'Shadows Into Light', cursive;
+        letter-spacing: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .text-title{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .text-oswald{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+
+    .text-list{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .tex-contacts{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    #contactos{
+        background-image: url(/EP1-WEB/imagenes/gato-content.jpg);
+        background-repeat: no-repeat;
+        background-size: fixed;
+        background-position: center;
+        height: 75vh;
+        width: 100;
+    }
+
+    .text-anton{
+        font-family: 'Anton', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    
+    .text-shadows{
+        font-family: 'Shadows Into Light', cursive;
+        letter-spacing: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .text-title{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .text-oswald{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .tex-contacts{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.0rem;
+    }
+
+    #contactos{
+        background-image: url(/EP1-WEB/imagenes/gato-content.jpg);
+        background-repeat: no-repeat;
+        background-size: fixed;
+        background-position: center;
+        height: 50vh;
+        width: 100;
+    }
+
+    .text-anton{
+        font-family: 'Anton', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    
+    .text-shadows{
+        font-family: 'Shadows Into Light', cursive;
+        letter-spacing: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .text-list{
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+    }
+
+    .text-oswald{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .text-list{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    #contactos{
+        background-image: url(/EP1-WEB/imagenes/gato-content.jpg);
+        background-repeat: no-repeat;
+        background-size: fixed;
+        background-position: center;
+        height: 50vh;
+        width: 100;
+    }
+
+    .text-anton{
+        font-family: 'Anton', sans-serif;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    .text-shadows{
+        font-family: 'Shadows Into Light', cursive;
+        letter-spacing: 0.7rem;
+    }
+    
 }
