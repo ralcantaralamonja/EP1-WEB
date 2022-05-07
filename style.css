@@ -33,6 +33,16 @@ main .carousel-inner img{
     height: 100%;
 }
 
+#HOME{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.text-about{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
 .text-title{
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -57,6 +67,10 @@ main .carousel-inner img{
     font-size: 2rem;
 }
 
+#SERVICES{
+    font-family: 'Oswald', sans-serif;
+}
+
 .text-anton{
     font-family: 'Anton', sans-serif;
     font-size: 3rem;
@@ -78,6 +92,11 @@ main .carousel-inner img{
     font-size: 1.8rem;
 }
 
+.text-video{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+}
+
 .tex-contacts{
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
@@ -89,12 +108,13 @@ main .carousel-inner img{
 }
 
 .text-title-appo{
-    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
 }
 
 
 #contactos{
-    background-image: url(imagenes/gato-content.jpg);
+    background-image: url(/EP1-WEB/imagenes/gato-content.jpg);
     background-repeat: no-repeat;
     background-size: fixed;
     height: 100vh;
@@ -108,7 +128,7 @@ p{
 }
 
 #footer{
-    background-color:  #black ;
+    background-color:  black ;
     padding: 20px 0px 20px 0px;
 }
 
@@ -118,7 +138,7 @@ p{
 }
 
 .text-form{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.3rem;
     color: #0d1b1b; 
     font-weight: bold;
@@ -164,6 +184,16 @@ p{
         font-family: 'Shadows Into Light', cursive;
         letter-spacing: 1.5rem;
     }
+    .text-ourteam{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.6rem;
+    }
+
+    .text-videos{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.6rem;
+    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -194,6 +224,10 @@ p{
     .text-shadows{
         font-family: 'Shadows Into Light', cursive;
         letter-spacing: 1.2rem;
+    }
+    .text-ourteam{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
     }
 }
 
@@ -240,6 +274,16 @@ p{
         font-family: 'Shadows Into Light', cursive;
         letter-spacing: 1rem;
     }
+    .text-ourteam{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+
+    .text-videos{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4rem;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -280,6 +324,17 @@ p{
         font-family: 'Shadows Into Light', cursive;
         letter-spacing: 0.8rem;
     }
+
+    .text-ourteam{
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.8rem;
+    }
+
+    .text-videos{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -307,6 +362,7 @@ p{
         background-position: center;
         height: 50vh;
         width: 100;
+        margin-bottom: 3rem;
     }
 
     .text-anton{
@@ -319,5 +375,10 @@ p{
         font-family: 'Shadows Into Light', cursive;
         letter-spacing: 0.7rem;
     }
+    .text-videos{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    
     
 }
