@@ -114,7 +114,7 @@ main .carousel-inner img{
 
 
 #contactos{
-    background-image: url(/EP1-WEB/imagenes/gato-content.jpg);
+    background-image: url(imagenes/gato-content.jpg);
     background-repeat: no-repeat;
     background-size: fixed;
     height: 100vh;
