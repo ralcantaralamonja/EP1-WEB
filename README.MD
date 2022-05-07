@@ -5,3 +5,4 @@ Participantes
 * Ricardo Luis Alejandro Alcantara Lamonja
 * Orlando Alonso Gonzales Paz
 * Matias Joaquin Toledo Ocampo Priano
+* Alex Franco Pacotaipe Garcia
